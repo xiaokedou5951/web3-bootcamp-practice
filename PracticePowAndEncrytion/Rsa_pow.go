@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	nickname := "CryptoExplorer"
+	nickname := "昵称"
 
 	fmt.Println("=== 开始 RSA + PoW 实践 ===")
 	fmt.Printf("昵称: %s\n\n", nickname)

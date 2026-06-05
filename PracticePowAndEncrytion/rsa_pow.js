@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 
-const nickname = 'CryptoExplorer';
+const nickname = '昵称';
 
 async function main() {
     console.log('=== 开始 RSA + PoW 实践 ===');
