@@ -68,6 +68,7 @@ function findHash(nickname, zeros) {
             const duration = Date.now() - startTime;
             console.log('找到满足条件的哈希值！');
             console.log(`花费时间: ${duration}ms`);
+            console.log(`Nonce值: ${nonce}`);
             console.log(`Hash 内容: ${data}`);
             console.log(`Hash 值: ${hash}`);
             return { data, hashStr: hash };

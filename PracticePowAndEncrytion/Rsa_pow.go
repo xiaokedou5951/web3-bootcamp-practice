@@ -79,6 +79,7 @@ func findHash(nickname string, zeros int) (string, string) {
 			duration := time.Since(startTime)
 			fmt.Printf("找到满足条件的哈希值！\n")
 			fmt.Printf("花费时间: %v\n", duration)
+			fmt.Printf("Nonce值: %d\n", nonce)
 			fmt.Printf("Hash 内容: %s\n", data)
 			fmt.Printf("Hash 值: %s\n", hashStr)
 			return data, hashStr
