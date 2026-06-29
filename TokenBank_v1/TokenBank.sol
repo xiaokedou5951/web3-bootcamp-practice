@@ -15,7 +15,7 @@ contract TokenBank {
     IERC20 private _token;
     
     // 记录每个用户存入的代币数量
-    mapping(address => uint256) private _deposits;
+    mapping(address => uint256) _deposits;
     
     // 存款和取款事件
     event Deposit(address indexed user, uint256 amount);
