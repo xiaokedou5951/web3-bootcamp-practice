@@ -93,6 +93,8 @@ contract MyNFT is ERC721URIStorage, ERC721Enumerable, Ownable {
 使用 Remix ，部署上面合约至 **Polygon**。  
 部署者成为 `owner`，拥有铸造权限。
 
+部署后到合约地址：0x8057ADF367cF14e7D7532dab020AEE7bf62259AC
+
 ### 铸造
 调用 `safeMint` 函数：
 - `to`：接收 NFT 的地址（如你的钱包地址）
